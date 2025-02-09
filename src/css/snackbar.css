@@ -1,0 +1,116 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c5c5c5;
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    gap: 15px;
+}
+
+.DelayMS{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input[type="number"] {
+    padding: 16px 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input[type="number"]:hover {
+    border-color: black;
+}
+
+input[type="number"]:focus {
+    border-color: #4E75FF;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-top: 24px;
+    padding-inline: 48px;
+    transition: border 0.3s ease;
+}
+fieldset:hover {
+    border-color: black;
+}
+legend {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;    
+}
+
+fieldset  label {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #2e2f42;
+}
+
+button {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+padding: 8px 16px;
+margin-top: 24px;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357acb;
+}
+
+button:active {
+    background-color: #2c65a6;
+}
+fieldset input[type="radio"] {
+   width: 20px;
+   height: 20px;
+}
+a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
